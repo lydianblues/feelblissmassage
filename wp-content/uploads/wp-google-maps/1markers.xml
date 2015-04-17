@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<markers>
+  <marker>
+    <marker_id>2</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>624 Brooklyn Ave Oakland CA</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>37.804488</lat>
+    <lng>-122.24761899999999</lng>
+    <anim>0</anim>
+    <category></category>
+    <infoopen>0</infoopen>
+  </marker>
+</markers>

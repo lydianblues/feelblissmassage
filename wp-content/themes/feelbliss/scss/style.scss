@@ -1,0 +1,141 @@
+/*
+Theme Name:     FeelBliss
+Description:    Child Theme of Spun
+Author:         mbs
+Template:       spun
+*/
+
+@import url("../spun/style.css");
+@import "compass";
+
+.hentry.no-thumbnail {
+    background-color: cadetblue;
+}
+.hentry.no-thumbnail:hover {
+    background-color: #aaaadd;
+}
+.main-navigation a {
+        color: white;
+        padding: 0.25em;
+        background-color: cadetblue;
+        display: block;
+        text-decoration: none;
+}
+
+.hometitle {
+    position: absolute;
+    top: 73px;
+    width: 100%;
+    text-align: center;
+}
+.site-title {
+    padding-top: 0.25em;
+}
+.site-title a {
+    font-size: 1.5em;
+    padding-left: 22px;
+}
+
+.site-content #nav-below .nav-previous a,
+.site-content #nav-below .nav-next a {
+    display: none;
+}
+#content {
+    font-size: 18px;
+}
+
+body {
+  /* $svg-gradient-shim-threshold: 1 !global; */
+  @include background-image(linear-gradient(120deg, #ddb373, #cdb373, cadetblue));
+}
+
+#oakland-btn {
+    border: 4px solid blue;
+    display: block;
+    float: left;
+    border-radius: 10px;
+    margin: 0em 1em 1em 0em;
+}
+#berkeley-btn {
+    border: 4px solid #333;
+    display: block;
+    float: left;
+    border-radius: 10px;
+    margin: 0em 1em 1em 0em; 
+}
+#orinda-btn {
+    border: 4px solid #333;
+    display: block;
+    float: left;
+    border-radius: 10px;
+    margin: 0em 0em 1em 0em; 
+}
+
+#map-container {
+   position: relative;
+   height: 500px; /* 450px for map + 50px for mapinfo */
+   clear: left;
+}
+
+#oakland-map, #berkeley-map, #orinda-map {
+	position: absolute;
+	top: 0px;
+	z-index: 8;
+}
+
+#oakland-map {	
+	z-index: 10;
+}
+
+.mapinfo {
+	width: 100%;
+	display: table;
+	text-align: center;
+	padding: 0.25em;
+	background-color: yellow;
+	height: 4em;
+	font-family: cursive, sans-serif;
+        box-sizing: border-box;
+}
+
+#traveling-services {
+	box-sizing:border-box;
+	width: 80%;
+	border: 2px solid green;
+	border-radius: 25px;
+	padding: 1em;
+	margin: 1em auto;
+	background-color: blanchedalmond;
+}
+
+aside.widget_pages {
+	border: 1px solid blue;
+	background-color: #fef;
+	margin: 4em;
+	width: 50%;
+	padding: 1em;
+}
+body::before {
+	width: 0;
+}
+#front-wrapper {
+	margin: 2em;
+}
+
+/* See http://stackoverflow.com/questions/9663375/google-map-infowindow-not-showing-properly */
+#map-canvas img{max-width:none;}
+
+#map-wrapper {
+    width:80%;
+    height: 640px;
+    margin: 1em auto;
+    border: 1em solid #fef;
+    border-style: outset;
+    box-sizing: border-box;
+}
+#map-canvas {
+    height: 100%;
+    width: 100%;
+}
+
+
