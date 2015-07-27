@@ -57,10 +57,7 @@ Template:       spun
 /* line 47, scss/style.scss */
 body {
   /* $svg-gradient-shim-threshold: 1 !global; */
-  background-image: -webkit-linear-gradient(120deg, #ddb373, #cdb373, #5f9ea0);
-  background-image: -moz-linear-gradient(120deg, #ddb373, #cdb373, #5f9ea0);
-  background-image: -o-linear-gradient(120deg, #ddb373, #cdb373, #5f9ea0);
-  background-image: linear-gradient(120deg, #ddb373, #cdb373, #5f9ea0);
+  /* @include background-image(linear-gradient(120deg, #ddb373, #cdb373, cadetblue)); */
 }
 
 /* line 52, scss/style.scss */
@@ -73,7 +70,7 @@ body {
 }
 
 /* line 59, scss/style.scss */
-#berkeley-btn {
+#larkspur-btn {
   border: 4px solid #333;
   display: block;
   float: left;
@@ -99,7 +96,7 @@ body {
 }
 
 /* line 80, scss/style.scss */
-#oakland-map, #berkeley-map, #orinda-map {
+#oakland-map, #larkspur-map, #orinda-map {
   position: absolute;
   top: 0px;
   z-index: 8;

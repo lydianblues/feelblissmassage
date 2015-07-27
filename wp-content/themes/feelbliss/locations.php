@@ -29,7 +29,7 @@ Template Name: Locations
 
 <h1>Locations</h1>
 <div>
-Massage services are available in Berkeley and Oakland.  Click on the desired
+Massage services are available in Larkspur and Oakland.  Click on the desired
 location below to view the map.
 </div>
 
@@ -41,33 +41,33 @@ services needed). Please inquire for weddings, pamper parties and group rates.
 
 <div id="button-container">
 	<button id="oakland-btn" type="button">Oakland Map</button>
-	<button id="berkeley-btn" type="button">Berkeley Map</button>
+	<button id="larkspur-btn" type="button">Larkspur Map</button>
 </div>
 
 <div id="map-container">
 
 	<div id="oakland-map">
 		<div class="mapinfo">
-			Lake Merritt District of Oakland<br/>
-			A Private Studio Retreat
+			Santa Clara Ave in Oakland<br/>
+			A Private Studio
 		</div>
-		<iframe style="border: 0; display: block; margin: 0 auto;"
-			src="https://www.google.com/maps/embed/v1/place?q=624%20Brooklyn%20Ave%2C%20Oakland%2C%20CA%2C%20United%20States&amp;key=AIzaSyA1p760WvsVtIYn1SxuTmqfo8WKMR1Bl_U"
-			width="600" height="450" frameborder="0">
-		</iframe>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6303.527400436687!2d-122.25252139999994!3d37.81900350000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f87598d464c35%3A0xd1fb2442a1f68a1!2s166+Santa+Clara+Ave%2C+Oakland%2C+CA+94610!5e0!3m2!1sen!2sus!4v1434049843227" width="600" height="450" frameborder="0" style="border:0"></iframe>
+
 	</div>
 
-	<div id="berkeley-map">
+	<div id="larkspur-map">
 		
 			<div class="mapinfo">
-				A Neighborhood Wellness Center<br/>
-				East Bay Acupuncture and Natural Medicine
+				Holcomb Ave in Larkspur<br/>
+				Home Studio Retreat
 			</div>
-		
-		<iframe style="border: 0; display: block; margin: 0 auto;"
-			src="https://www.google.com/maps/embed/v1/place?q=2346%20Stuart%20Street%2C%20Berkeley%2C%20Ca.%2094705&amp;key=AIzaSyA1p760WvsVtIYn1SxuTmqfo8WKMR1Bl_U"
-			width="600" height="450" frameborder="0">
-		</iframe>
+	
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.9969800455838!2d-122.53253400000004!3d37.930501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a7e8e29d349%3A0x2180dcb779ebaacd!2s107+Holcomb+Ave%2C+Larkspur%2C+CA+94939!5e0!3m2!1sen!2sus!4v1437972600377" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+	
 	</div>
 
 

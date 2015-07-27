@@ -46,7 +46,7 @@ Template:       spun
 
 body {
   /* $svg-gradient-shim-threshold: 1 !global; */
-  @include background-image(linear-gradient(120deg, #ddb373, #cdb373, cadetblue));
+  /* @include background-image(linear-gradient(120deg, #ddb373, #cdb373, cadetblue)); */
 }
 
 #oakland-btn {
